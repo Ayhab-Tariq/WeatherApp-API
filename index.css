@@ -1,0 +1,46 @@
+.appMainWrapper {
+    height: 100vh;
+    background: linear-gradient(#08739e, #103855);
+}
+
+.resultContainer {
+    padding-top: 2rem;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.formContentContainer {
+    margin: 5.5rem 0 2rem 0;
+}
+
+.formWrapper {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(./images/weather-icon-gif-22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #000000;
+    font-weight: bold;
+}
+
+.formWrapper input {
+    font-size: 18px;
+}
+
+.formWrapper button {
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.airHumidityContent{
+}
+
+#humidityIcon{
+    /* display */
+}
